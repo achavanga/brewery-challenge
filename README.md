@@ -87,4 +87,4 @@ Answer. Shane can use a monitor/tablet on the truck that will show him all the a
 
 ### Conclusion
 
-The challange gave me a opportunity to research more on components that I can use to improve on my Nodejs skills.
+The challange gave me an opportunity to research more on components that I can use to improve on my Nodejs skills.
