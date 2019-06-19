@@ -66,23 +66,23 @@ Answer. We can a function to auto adjust once its out of range.
 5. Can Shane change the value of beer recommended temperetaure?<br/>
 Answer. No, a drive shouldn't be allowed to change the temperature as the beer temperature is determine by the manufacture.
 6. How many contaier can a truck carry?<br/>
-7. Is the truck container temperature monitor by someone at the office as well?<br/>
+7. Is the truck container temperature monitor by someone at the head office as well?<br/>
 Answer. This should be in order to monitor if we have issue with the containers.
 8. How will Shane identify the container if there is an issue.<br/>
 Answer. Put so digfital tag on each container.
 9. How will Shane get the notification?<br/>
-Answer. Shane can use a monitor/tablet on the truck that will show him all the alerts.
+Answer. Shane can use a pc monitor/tablet on the truck that will show him all the alerts.
 
 ### Features to include into version 2.0
-1. Using Rest API that can alert the driver application console and the Controller at the head office.
+1. Using Rest API that can alert Shane and the Controllers at the head office.
 2. Introduce Rasberry PI to monitor the Container temperature and to publish the results to the rest services.
 3. Using the same Rest API to develop a mobile application so that anyone within the company can get the alerts.
-4. Be able to coonect multiple devices.
+4. Be able to connect multiple devices.
 5. Add a Database layer to store the container data.
-6. Use the database for analysing data it to determine if there are issue with the container.
-7. To build some report usinf database data. 
-8. Complete the RobotJS testing automation so that a can perform test and random.
-9. Add the project into the CI/CD pipeline so that each time we change code test are executed and code quality is checked and if everything is fine then deploy to testing environment.
+6. Use the database for analysing data to determine if there are issues with the container.
+7. To build some report using database data. 
+8. Complete the RobotJS testing automation so that I can perform automation test at random.
+9. Add the project into the CI/CD pipeline so that each time we change code, test cases are executed, code quality is checked and if everything is fine then deploy to testing environment.
 10. Add code review before merging tha code into master/development branch.
 
 ### Conclusion

@@ -17,6 +17,7 @@ module.exports = class Container {
     getBeer() {
         return this.beer;
     }
+    //Check the container temperature details against the beer recommendation
     checkTemperature() {
         let validationMessage = this.validateValues();
         if (validationMessage == '') {
@@ -31,7 +32,7 @@ module.exports = class Container {
             return validationMessage;
         }
     }
-
+    //validate beer and container temperature data
     validateValues() {
         if (this.getBeer() == undefined) {
             return chalk.bgRed('Error reading beer details');
