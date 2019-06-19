@@ -1,0 +1,38 @@
+{
+  "name": "pragma-brewery-code-challenge",
+  "version": "1.0.0",
+  "description": "PragmaBrewery Code Challenge (c) 2019",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --reporter spec test  --watch=false --code-coverage && npm run coverage",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha test/*.js"
+  },
+  "keywords": [
+    "brewey",
+    "beer",
+    "container",
+    "temperature"
+  ],
+  "author": {
+    "name": "Abel Chavanga",
+    "email": "achavanga@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cli-table3": "^0.5.1"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.1.4",
+    "robotjs": "^0.5.1",
+    "sinon": "^7.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/tutorial-crud-nodejs-mocha-chai"
+  }
+}
