@@ -3,14 +3,14 @@
 ### About
 The solution was developed by Abel Chavanga using Nodejs to fulfil the requirements of the PragmaTeam recruitment process.
 
-I experiment with robotjs and the code is working fine but was not happy with how it was working hence I had to comment it out. I used the console screen output the results of project when running it.
+I experiment with robotjs and the code is working fine but was not happy with how it was working hence I had to comment it out. I used the console screen to output the results of project when running it.
 
 ### Prerequisites
 Make sure you have [Node](https://nodejs.org/en/download/) installed on you pc. 
 
 I have used two producation dependencies for the project namely:
 - [Chalk](https://www.npmjs.com/package/chalk). Used to add some color on my table output so that is easy to see where the temperature issues are.
-- [cli-table3](https://www.npmjs.com/package/cli-table3). Used to show my temperetaure out on a nice table.
+- [cli-table3](https://www.npmjs.com/package/cli-table3). Used to show my temperetaure output on a nice table.
 
 I also used development dependencies namely
 - [chai](https://www.chaijs.com/guide/installation/#nodejs). Used for unit testing.
@@ -20,11 +20,11 @@ I also used development dependencies namely
 - [sinon](https://www.npmjs.com/package/sinon). Use the the robojs testing code.
 
 ### How to run
-Clone this github repository ($ git clone <project>) to you local machine and run command(s):
+Clone this github repository ($ git clone https://github.com/achavanga/brewery-challenge.git ) to you local machine and run command(s):
 ```
 npm install
 ```
-After the above script is completed, please run the script below if you want to check code coverage/ unit testing report. My approach was to make sure that I cover most of the possible scenarios that can happen in my application. The test helped me to refactor and fix some validation issues in method checkTemperature() in Container class that can cause exceptions if handled correctly. To instanbul coverage report also helps to show if all the line are covered. You can also view this report for the project folder **/coverage/lcov-report/index.html** .
+After the above script is completed, please run the script below if you want to check code coverage/ unit testing report. My approach was to make sure that I cover most of the possible scenarios that can happen in my application. The test helped me to refactor and fix some validation issues in method checkTemperature() in Container class that can cause exceptions if handled incorrectly. The instanbul coverage report also helps to show if all the line are covered. You can also view this report for the project folder **/coverage/lcov-report/index.html** .
 ```
 npm run test
 ```
@@ -32,8 +32,8 @@ To run the application use the command below:
 ```
 npm run start
 ```
-The application will ask Shane to enter the number of times to show the notification on screen.The following question will be shown on the screen <br/>
- **How many notification do you want to get after every second?** <br/>
+The application will ask Shane to enter the number of times to show the notification on screen.The following question will be shown on the screen : <br/>
+ ***How many notification do you want to get after every second?*** <br/>
 Once Shane have entered the number, the application will show the results in a table for the Beer Container temperature. The ones highlighted in Red show that the temperature is either higher or lower that required. The screen will refresh after every 2 seconds.
 
 ### Assumption
